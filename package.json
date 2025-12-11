@@ -6,7 +6,8 @@
   "dependencies": {
     "@decidim/browserslist-config": "^0.31.0",
     "@decidim/core": "^0.31.0",
-    "@decidim/webpacker": "^0.31.0"
+    "@decidim/webpacker": "^0.31.0",
+    "graphql": "^16.8.1"
   },
   "devDependencies": {
     "@decidim/dev": "^0.31.0",

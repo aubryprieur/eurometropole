@@ -7,7 +7,7 @@ redis_url = ENV["REDIS_URL"] if redis_url.nil? || redis_url.empty?
 
 redis_opts = {
   url: redis_url,
-  ssl_params: { verify_mode: OpenSSL::SSL::VERIFY_PEER }
+  ssl_params: { verify_mode: OpenSSL::SSL::VERIFY_NONE }
 }
 
 Sidekiq.configure_server { |config| config.redis = redis_opts }

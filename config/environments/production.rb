@@ -114,4 +114,5 @@ end
   # Skip DNS rebinding protection for the default health check endpoint.
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
   config.hosts << "eurometropole-3e673cb05ad0.herokuapp.com"
+  config.active_job.queue_adapter = :sidekiq
 end

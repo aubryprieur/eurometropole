@@ -17,6 +17,7 @@ gem "decidim", "0.31.0"
 gem "bootsnap", "~> 1.3"
 
 gem "puma", ">= 6.3.1"
+gem "sidekiq"
 
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
@@ -34,5 +35,4 @@ group :development do
 end
 
 group :production do
-  gem "sidekiq"
 end

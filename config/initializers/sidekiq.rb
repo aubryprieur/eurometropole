@@ -2,7 +2,8 @@
 require "sidekiq"
 require "openssl"
 
-redis_url = ENV["REDIS_TLS_URL"].presence || ENV["REDIS_URL"]
+redis_url = ENV["REDIS_TLS_URL"]
+redis_url = ENV["REDIS_URL"] if redis_url.nil? || redis_url.empty?
 
 redis_opts = {
   url: redis_url,

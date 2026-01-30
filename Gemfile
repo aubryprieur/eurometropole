@@ -18,6 +18,8 @@ gem "bootsnap", "~> 1.3"
 
 gem "puma", ">= 6.3.1"
 gem "sidekiq"
+gem "cloudinary"
+
 
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri

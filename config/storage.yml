@@ -39,10 +39,6 @@ gcs:
     auth_provider_x509_cert_url: <%= Decidim::Env.new("GCS_AUTH_PROVIDER_X509_CERT_URL", "https://www.googleapis.com/oauth2/v1/certs").to_s %>
     client_x509_cert_url: <%= Decidim::Env.new("GCS_CLIENT_X509_CERT_URL").to_s %>
 
-cloudinary:
-  service: Cloudinary
-  folder: <%= Rails.env %>
-
 # mirror:
 #   service: Mirror
 #   primary: local

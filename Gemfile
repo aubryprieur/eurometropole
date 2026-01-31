@@ -18,8 +18,7 @@ gem "bootsnap", "~> 1.3"
 
 gem "puma", ">= 6.3.1"
 gem "sidekiq"
-gem "cloudinary"
-gem 'activestorage-cloudinary-service'
+gem "aws-sdk-s3", require: false
 
 
 

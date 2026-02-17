@@ -13,5 +13,8 @@ nl:
         participatory_processes:
           form:
             title: Over dit proces
-      show:
-        title: Over dit proces
+      participatory_processes:
+        description:
+          title: Over dit proces
+        show:
+          title: Over dit proces

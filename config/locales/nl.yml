@@ -25,3 +25,8 @@ nl:
           title: Over dit proces
         show:
           title: Over dit proces
+  layouts:
+    decidim:
+      announcements:
+        view_less: Minder tonen
+        view_more: Meer informatie

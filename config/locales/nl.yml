@@ -13,6 +13,10 @@ nl:
         participatory_processes:
           form:
             title: Over dit proces
+      pages:
+        home:
+          highlighted_processes:
+            active_spaces: Actieve processen
       participatory_processes:
         description:
           title: Over dit proces

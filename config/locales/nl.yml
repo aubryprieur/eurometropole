@@ -1,0 +1,17 @@
+---
+nl:
+  decidim:
+    admin:
+      menu:
+        participatory_processes_submenu:
+          info: Over dit proces
+    participatory_processes:
+      admin:
+        participatory_process_groups:
+          form:
+            title: Over dit proces
+        participatory_processes:
+          form:
+            title: Over dit proces
+      show:
+        title: Over dit proces

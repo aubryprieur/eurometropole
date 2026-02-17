@@ -5,6 +5,9 @@ nl:
       menu:
         participatory_processes_submenu:
           info: Over dit proces
+    metadata:
+      progress:
+        remaining: "%{time_distance} resterend"
     participatory_processes:
       admin:
         participatory_process_groups:

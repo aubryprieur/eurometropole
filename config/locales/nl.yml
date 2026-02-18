@@ -5,6 +5,10 @@ nl:
       menu:
         participatory_processes_submenu:
           info: Over dit proces
+    core:
+      application_helper:
+        filter_taxonomy_values:
+          all: Alle
     metadata:
       progress:
         remaining: "%{time_distance} resterend"

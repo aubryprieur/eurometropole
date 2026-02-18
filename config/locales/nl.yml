@@ -12,6 +12,11 @@ nl:
     metadata:
       progress:
         remaining: "%{time_distance} resterend"
+    pages:
+      home:
+        footer_sub_hero:
+          footer_sub_hero_body_html: Laten we samen bouwen aan een meer open, transparante en collaboratieve samenleving.<br /> Doe mee, neem deel en beslis mee.
+          footer_sub_hero_headline: Welkom op het participatieplatform van %{organization}.
     participatory_processes:
       admin:
         participatory_process_groups:

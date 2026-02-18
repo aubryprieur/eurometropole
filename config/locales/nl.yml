@@ -25,6 +25,9 @@ nl:
           title: Over dit proces
         show:
           title: Over dit proces
+    proposals:
+      proposals:
+        empty: Er zijn nog geen voorstellen.
   layouts:
     decidim:
       announcements:

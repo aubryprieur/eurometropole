@@ -28,6 +28,10 @@ nl:
     proposals:
       proposals:
         empty: Er zijn nog geen voorstellen.
+    shared:
+      application_helper:
+        filter_taxonomy_values:
+          all: Alle
   layouts:
     decidim:
       announcements:

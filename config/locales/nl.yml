@@ -27,7 +27,9 @@ nl:
           title: Over dit proces
     proposals:
       proposals:
-        empty: Er zijn nog geen voorstellen.
+        proposals:
+          empty: Er zijn nog geen voorstellen.
+          empty_filters: Er zijn geen voorstellen die aan deze criteria voldoen.
     shared:
       application_helper:
         filter_taxonomy_values:

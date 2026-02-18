@@ -1,5 +1,9 @@
 ---
 nl:
+  activemodel:
+    attributes:
+      proposal:
+        body: Inhoud
   decidim:
     admin:
       menu:
@@ -36,6 +40,15 @@ nl:
           title: Over dit proces
     proposals:
       proposals:
+        edit:
+          add_attachments: Bijlagen toevoegen
+          attachment_legend: Voeg een document of afbeelding toe
+        new:
+          send: Doorgaan
+          title: Nieuw voorstel maken
+        preview:
+          publish: Publiceren
+          title: Publiceer uw voorstel
         proposals:
           empty: Er zijn nog geen voorstellen.
           empty_filters: Er zijn geen voorstellen die aan deze criteria voldoen.
@@ -43,6 +56,8 @@ nl:
       application_helper:
         filter_taxonomy_values:
           all: Alle
+    taxonomies:
+      prompt: Selecteer een optie
   layouts:
     decidim:
       announcements:

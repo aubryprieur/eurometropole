@@ -1,0 +1,7 @@
+---
+fr:
+  decidim:
+    core:
+      application_helper:
+        filter_taxonomy_values:
+          all: Tout

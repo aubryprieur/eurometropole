@@ -13,6 +13,19 @@ nl:
       application_helper:
         filter_taxonomy_values:
           all: Alle
+    forms:
+      file_help:
+        file:
+          message_2: Als het een afbeelding is, gebruik dan bij voorkeur een liggende afbeelding zonder tekst. De service snijdt de afbeelding bij.
+      files:
+        extension_allowlist: 'Geaccepteerde formaten: %{extensions}'
+      upload:
+        labels:
+          add_attachment: Bijlage toevoegen
+          save: Opslaan
+        select_file: Selecteer een bestand
+      upload_help:
+        dropzone: Sleep bestanden hierheen of klik op de knop om te uploaden
     metadata:
       progress:
         remaining: "%{time_distance} resterend"

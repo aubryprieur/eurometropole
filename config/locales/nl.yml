@@ -52,6 +52,11 @@ nl:
         proposals:
           empty: Er zijn nog geen voorstellen.
           empty_filters: Er zijn geen voorstellen die aan deze criteria voldoen.
+        wizard_steps:
+          current_step: Huidige stap
+          step_1: Voorstel maken
+          step_2: Publiceer uw voorstel
+          title: Stappen voor het maken van een voorstel
     shared:
       application_helper:
         filter_taxonomy_values:

@@ -26,6 +26,9 @@ nl:
         select_file: Selecteer een bestand
       upload_help:
         dropzone: Sleep bestanden hierheen of klik op de knop om te uploaden
+    help:
+      main_topic:
+        title: Algemeen
     menu:
       help: Hulp
       home: Startpagina
@@ -91,3 +94,5 @@ nl:
         help: Hulp
         open_data: Open gegevens
         terms_of_service: Gebruiksvoorwaarden
+      user_menu:
+        configuration: Instellingen

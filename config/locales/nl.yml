@@ -26,6 +26,8 @@ nl:
         select_file: Selecteer een bestand
       upload_help:
         dropzone: Sleep bestanden hierheen of klik op de knop om te uploaden
+    menu:
+      help: Hulp
     metadata:
       progress:
         remaining: "%{time_distance} resterend"
@@ -74,6 +76,8 @@ nl:
       application_helper:
         filter_taxonomy_values:
           all: Alle
+      floating_help:
+        help: Hulp
     taxonomies:
       prompt: Selecteer een optie
   layouts:
@@ -81,3 +85,5 @@ nl:
       announcements:
         view_less: Minder tonen
         view_more: Meer informatie
+      footer:
+        help: Hulp

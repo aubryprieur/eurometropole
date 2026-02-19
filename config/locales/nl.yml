@@ -28,6 +28,7 @@ nl:
         dropzone: Sleep bestanden hierheen of klik op de knop om te uploaden
     menu:
       help: Hulp
+      home: Startpagina
     metadata:
       progress:
         remaining: "%{time_distance} resterend"
@@ -86,4 +87,7 @@ nl:
         view_less: Minder tonen
         view_more: Meer informatie
       footer:
+        data_consent_settings: Cookie-instellingen
         help: Hulp
+        open_data: Open gegevens
+        terms_of_service: Gebruiksvoorwaarden

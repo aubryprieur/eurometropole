@@ -8,7 +8,7 @@ nl:
     admin:
       menu:
         participatory_processes_submenu:
-          info: Over dit proces
+          info: Over deze consultatie
     core:
       application_helper:
         filter_taxonomy_values:
@@ -32,6 +32,7 @@ nl:
     menu:
       help: Hulp
       home: Startpagina
+      processes: Consultaties
     metadata:
       progress:
         remaining: "%{time_distance} resterend"
@@ -44,19 +45,24 @@ nl:
       admin:
         participatory_process_groups:
           form:
-            title: Over dit proces
+            title: Over deze consultatie
         participatory_processes:
           form:
-            title: Over dit proces
+            title: Over deze consultatie
+      content_blocks:
+        participatory_processes:
+          active: Actieve consultaties
+          name: Consultaties
       pages:
         home:
           highlighted_processes:
-            active_spaces: Actieve processen
+            active_spaces: Actieve consultaties
+            see_all_spaces: Alle consultaties bekijken
       participatory_processes:
         description:
-          title: Over dit proces
+          title: Over deze consultatie
         show:
-          title: Over dit proces
+          title: Over deze consultatie
     proposals:
       proposals:
         edit:

@@ -5,3 +5,15 @@ fr:
       application_helper:
         filter_taxonomy_values:
           all: Tout
+    menu:
+      processes: Consultations
+    participatory_processes:
+      content_blocks:
+        participatory_processes:
+          active: Consultations actives
+          name: Consultations
+      pages:
+        home:
+          highlighted_processes:
+            active_spaces: Consultations actives
+            see_all_spaces: Voir toutes les consultations

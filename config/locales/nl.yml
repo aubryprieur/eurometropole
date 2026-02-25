@@ -61,6 +61,24 @@ nl:
       participatory_processes:
         description:
           title: Over deze consultatie
+        filters:
+          counters:
+            active:
+              one: 1 actieve consultatie
+              other: "%{count} actieve consultaties"
+            all:
+              one: 1 consultatie
+              other: "%{count} consultaties"
+            past:
+              one: 1 afgelopen consultatie
+              other: "%{count} afgelopen consultaties"
+            upcoming:
+              one: 1 komende consultatie
+              other: "%{count} komende consultaties"
+          explanations:
+            no_active: Geen actieve consultatie.
+            no_active_nor_upcoming: Geen actieve of komende consultatie.
+            no_active_nor_upcoming_callout: Er zijn geen actieve of komende consultaties. Hier is een lijst van afgelopen consultaties.
         show:
           title: Over deze consultatie
     proposals:

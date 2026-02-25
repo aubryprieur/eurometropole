@@ -17,3 +17,8 @@ fr:
           highlighted_processes:
             active_spaces: Consultations actives
             see_all_spaces: Voir toutes les consultations
+      participatory_processes:
+        description:
+          title: A propos de cette consultation
+        show:
+          title: A propos de cette consultation

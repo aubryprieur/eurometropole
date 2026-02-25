@@ -20,5 +20,19 @@ fr:
       participatory_processes:
         description:
           title: A propos de cette consultation
+        filters:
+          counters:
+            active:
+              one: 1 consultation active
+              other: "%{count} consultations actives"
+            all:
+              one: 1 consultation
+              other: "%{count} consultations"
+            past:
+              one: 1 consultation passée
+              other: "%{count} consultations passées"
+            upcoming:
+              one: 1 consultation à venir
+              other: "%{count} consultations à venir"
         show:
           title: A propos de cette consultation

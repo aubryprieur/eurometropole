@@ -8,6 +8,10 @@ nl:
         body: Inhoud
       user:
         email: E-mailadres
+  activerecord:
+    attributes:
+      decidim/user:
+        email: E-mailadres
   decidim:
     admin:
       menu:

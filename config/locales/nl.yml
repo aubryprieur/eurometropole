@@ -6,6 +6,8 @@ nl:
         email: E-mailadres
       proposal:
         body: Inhoud
+      user:
+        email: E-mailadres
   decidim:
     admin:
       menu:
@@ -128,6 +130,7 @@ nl:
         data_consent_settings: Cookie-instellingen
         help: Hulp
         open_data: Open gegevens
+        sign_up: Een account aanmaken
         terms_of_service: Gebruiksvoorwaarden
       user_menu:
         configuration: Instellingen

@@ -12,6 +12,11 @@ nl:
         participatory_processes_submenu:
           info: Over deze consultatie
     devise:
+      registrations:
+        new:
+          sign_up: Een account aanmaken
+          subtitle: Maak een account aan om deel te nemen aan het platform.
+          terms: Gebruiksvoorwaarden
       sessions:
         new:
           are_you_new?: Nog geen account?
@@ -127,6 +132,9 @@ nl:
       user_menu:
         configuration: Instellingen
   devise:
+    passwords:
+      edit:
+        password_help: "%{minimum_characters} tekens minimum, mag niet te gewoon zijn (bijvoorbeeld 123456) en moet verschillen van uw gebruikersnaam en e-mailadres."
     shared:
       links:
         sign_up: Een account aanmaken

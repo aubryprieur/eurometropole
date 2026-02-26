@@ -2,6 +2,8 @@
 nl:
   activemodel:
     attributes:
+      decidim/user:
+        email: E-mailadres
       proposal:
         body: Inhoud
   decidim:
@@ -9,6 +11,10 @@ nl:
       menu:
         participatory_processes_submenu:
           info: Over deze consultatie
+    devise:
+      sessions:
+        new:
+          are_you_new?: Nog geen account?
     core:
       application_helper:
         filter_taxonomy_values:

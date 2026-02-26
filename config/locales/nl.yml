@@ -120,3 +120,7 @@ nl:
         terms_of_service: Gebruiksvoorwaarden
       user_menu:
         configuration: Instellingen
+  devise:
+    shared:
+      links:
+        sign_up: Een account aanmaken

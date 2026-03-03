@@ -19,7 +19,7 @@ gem "bootsnap", "~> 1.3"
 gem "puma", ">= 6.3.1"
 gem "sidekiq"
 gem "aws-sdk-s3", require: false
-
+gem 'rack-reverse-proxy'
 
 
 group :development, :test do

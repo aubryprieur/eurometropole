@@ -646,6 +646,9 @@ GEM
       rack (~> 2.2, >= 2.2.4)
     rack-proxy (0.7.7)
       rack
+    rack-reverse-proxy (0.12.0)
+      rack (>= 1.0.0)
+      rack-proxy (~> 0.6, >= 0.6.1)
     rack-session (1.0.2)
       rack (< 3)
     rack-test (2.2.0)
@@ -922,6 +925,7 @@ DEPENDENCIES
   net-imap (~> 0.5.0)
   net-pop (~> 0.1.1)
   puma (>= 6.3.1)
+  rack-reverse-proxy
   sidekiq
   web-console (~> 4.2)
 

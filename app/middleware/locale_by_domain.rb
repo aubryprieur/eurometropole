@@ -1,3 +1,5 @@
+require 'rack/reverse_proxy'
+
 class LocaleByDomain
   PRIMARY_HOST = 'www.ilot-lys.eu'
   NL_HOST = 'www.leie-eiland.eu'
@@ -10,10 +12,12 @@ class LocaleByDomain
     request = Rack::Request.new(env)
 
     if request.host == NL_HOST
+      # Modifie la requête pour pointer vers le host principal avec locale=nl
+      env['HTTP_HOST'] = PRIMARY_HOST
+      env['SERVER_NAME'] = PRIMARY_HOST
       query = "locale=nl"
       query += "&#{request.query_string}" unless request.query_string.empty?
-      location = "https://#{PRIMARY_HOST}#{request.path}?#{query}"
-      return [302, { 'Location' => location, 'Content-Type' => 'text/html' }, []]
+      env['QUERY_STRING'] = query
     end
 
     @app.call(env)

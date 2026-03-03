@@ -12,10 +12,13 @@ class LocaleByDomain
     request = Rack::Request.new(env)
 
     if request.host == NL_HOST
-      # Modifie la requête pour pointer vers le host principal avec locale=nl
       env['HTTP_HOST'] = PRIMARY_HOST
       env['SERVER_NAME'] = PRIMARY_HOST
       query = "locale=nl"
+      query += "&#{request.query_string}" unless request.query_string.empty?
+      env['QUERY_STRING'] = query
+    elsif request.host == PRIMARY_HOST
+      query = "locale=fr"
       query += "&#{request.query_string}" unless request.query_string.empty?
       env['QUERY_STRING'] = query
     end

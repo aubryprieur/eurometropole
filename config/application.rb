@@ -30,6 +30,6 @@ module Eurometropole
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
     require_relative "../app/middleware/locale_by_domain"
-    config.middleware.use LocaleByDomain
+    config.middleware.insert_before 0, LocaleByDomain
   end
 end

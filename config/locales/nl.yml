@@ -12,6 +12,13 @@ nl:
     attributes:
       decidim/user:
         email: E-mailadres
+    models:
+      decidim/surveys/survey:
+        one: Enquête
+        other: Enquêtes
+      decidim/debates/debate:
+        one: Debat
+        other: Debatten
   decidim:
     admin:
       menu:

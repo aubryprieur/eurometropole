@@ -33,6 +33,8 @@ nl:
       sessions:
         new:
           are_you_new?: Nog geen account?
+      shared:
+        placeholder_email: hallo@voorbeeld.org
     core:
       application_helper:
         filter_taxonomy_values:

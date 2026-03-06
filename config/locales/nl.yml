@@ -157,6 +157,9 @@ nl:
           all: Alle
       floating_help:
         help: Hulp
+      login_modal:
+        please_log_in: Gelieve in te loggen
+        sign_up: Een account aanmaken
     statistics:
       surveys_count: Enquêtes
     taxonomies:

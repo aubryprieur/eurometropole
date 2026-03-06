@@ -30,6 +30,19 @@ nl:
       application_helper:
         filter_taxonomy_values:
           all: Alle
+    activity:
+      time_ago: "%{time} geleden"
+    components:
+      component_order_selector:
+        order:
+          debate: Debat
+      surveys:
+        name: Enquêtes
+    last_activities:
+      all: Alle activiteitstypen
+      index:
+        last_activity: Laatste activiteit
+      name: Laatste activiteiten
     forms:
       file_help:
         file:
@@ -76,6 +89,8 @@ nl:
         participatory_processes:
           active: Actieve consultaties
           name: Consultaties
+      last_activity:
+        new_participatory_process: "Nieuwe consultatie:"
       pages:
         home:
           highlighted_processes:
@@ -129,6 +144,8 @@ nl:
           all: Alle
       floating_help:
         help: Hulp
+    statistics:
+      surveys_count: Enquêtes
     taxonomies:
       prompt: Selecteer een optie
   layouts:

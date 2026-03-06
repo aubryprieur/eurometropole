@@ -192,12 +192,29 @@ nl:
             title: Analyse en statistieken
           essential:
             title: Essentieel
+            description: Deze cookies zorgen voor de essentiële werking van de website en helpen de gebruikers te beveiligen. Ze worden automatisch in de browser opgeslagen en kunnen niet worden uitgeschakeld.
           marketing:
             title: Marketing
+            description: Deze cookies verzamelen informatie over hoe u de website gebruikt en kunnen worden ingezet om u meer gepersonaliseerde marketing aan te bieden op de verschillende websites die u bezoekt.
           preferences:
             title: Voorkeuren
+            description: Deze cookies stellen de website in staat om de keuzes te onthouden die u in het verleden op deze website hebt gemaakt, om een meer gepersonaliseerde ervaring te bieden.
           save_settings: Instellingen opslaan
           title: Cookie-instellingen
+        details:
+          columns:
+            service: Service
+          items:
+            _session_id:
+              description: Hiermee kunnen websites de gebruiker herkennen binnen een website wanneer hij van de ene pagina naar de andere navigeert.
+              service: Deze website
+            decidim-consent:
+              description: Slaat informatie op over de cookies die de gebruiker op deze website heeft toegestaan.
+              service: Deze website
+            pwaInstallPromptSeen:
+              service: Deze website
+          types:
+            cookie: Cookie
       footer:
         data_consent_settings: Cookie-instellingen
         help: Hulp

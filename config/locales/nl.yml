@@ -50,6 +50,12 @@ nl:
       help: Hulp
       home: Startpagina
       processes: Consultaties
+    meetings:
+      meetings:
+        meetings:
+          no_meetings_warning: "Geen bijeenkomsten komen overeen met uw zoekcriteria of er zijn nog geen bijeenkomsten aangemaakt."
+        filters:
+          search: Zoeken
     metadata:
       progress:
         remaining: "%{time_distance} resterend"

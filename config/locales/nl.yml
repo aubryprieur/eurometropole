@@ -151,6 +151,14 @@ nl:
           step_1: Voorstel maken
           step_2: Publiceer uw voorstel
           title: Stappen voor het maken van een voorstel
+    search:
+      name: Zoeken
+    searches:
+      filters:
+        resource: "%{label} onder %{collection}"
+        search: Zoeken
+      filters_small_view:
+        filter_and_search: Filteren en zoeken
     shared:
       application_helper:
         filter_taxonomy_values:

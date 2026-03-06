@@ -169,6 +169,20 @@ nl:
       announcements:
         view_less: Minder tonen
         view_more: Meer informatie
+      data_consent:
+        modal:
+          accept_all: Alles accepteren
+          accept_only_essential: Alleen essentiële cookies accepteren
+          analytics:
+            title: Analyse en statistieken
+          essential:
+            title: Essentieel
+          marketing:
+            title: Marketing
+          preferences:
+            title: Voorkeuren
+          save_settings: Instellingen opslaan
+          title: Cookie-instellingen
       footer:
         data_consent_settings: Cookie-instellingen
         help: Hulp

@@ -30,6 +30,19 @@ nl:
       application_helper:
         filter_taxonomy_values:
           all: Alle
+    errors:
+      internal_server_error:
+        copied: Tekst gekopieerd!
+        copy_error_message_clarification: Foutmelding kopiëren naar klembord
+        copy_to_clipboard: Kopiëren naar klembord
+        date_and_time: Datum en tijd
+        reference: Referentie
+        request_method: Aanvraagmethode
+        title: Er is een probleem met onze server
+        try_later: Probeer het later opnieuw. Als de fout aanhoudt, kopieer dan de onderstaande informatie en stuur deze naar de beheerders van het platform, samen met alle andere informatie die u wilt delen.
+        unknown: Onbekend
+        url: URL
+        user: Gebruikers-ID
     activity:
       time_ago: "%{time} geleden"
     components:

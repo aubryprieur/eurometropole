@@ -3,4 +3,5 @@
 
 Rails.application.config.content_security_policy do |policy|
   policy.connect_src :self, "*.amazonaws.com", "*.hereapi.com", :data
+  policy.frame_src :self, "https://umap.openstreetmap.fr"
 end

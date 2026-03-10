@@ -3,5 +3,5 @@
 
 Rails.application.config.content_security_policy do |policy|
   policy.connect_src :self, "*.amazonaws.com", "*.hereapi.com", :data
-  policy.frame_src :self, "https://umap.openstreetmap.fr"
+  policy.frame_src :self, "www.youtube-nocookie.com", "player.vimeo.com", "player.twitch.tv", "meet.jit.si", "https://umap.openstreetmap.fr"
 end

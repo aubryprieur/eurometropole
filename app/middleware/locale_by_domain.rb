@@ -14,6 +14,7 @@ class LocaleByDomain
     if request.host == NL_HOST
       env['HTTP_HOST'] = PRIMARY_HOST
       env['SERVER_NAME'] = PRIMARY_HOST
+      env['HTTP_ORIGIN'] = env['HTTP_ORIGIN'].sub(NL_HOST, PRIMARY_HOST) if env['HTTP_ORIGIN']
       query = "locale=nl"
       query += "&#{request.query_string}" unless request.query_string.empty?
       env['QUERY_STRING'] = query

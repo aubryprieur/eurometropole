@@ -226,6 +226,12 @@ nl:
       user_menu:
         configuration: Instellingen
   devise:
+    mailer:
+      confirmation_instructions:
+        greeting: "Hallo %{recipient}!"
+        instruction: "Bedankt voor uw deelname aan de raadpleging over de eilandjes, oude meanders en jaagpaden van de Leie. Om deel te nemen en uw ideeën te delen, bevestig uw account door hieronder te klikken:"
+        action: "Mijn account bevestigen"
+        subject: "Bevestig uw inschrijving voor de raadpleging"
     passwords:
       edit:
         password_help: "%{minimum_characters} tekens minimum, mag niet te gewoon zijn (bijvoorbeeld 123456) en moet verschillen van uw gebruikersnaam en e-mailadres."

@@ -36,3 +36,10 @@ fr:
               other: "%{count} consultations à venir"
         show:
           title: A propos de cette consultation
+  devise:
+    mailer:
+      confirmation_instructions:
+        greeting: "Bonjour %{recipient} !"
+        instruction: "Merci d'avoir rejoint la consultation consacrée aux îlots, anciens méandres et chemins de halage de la Lys. Pour participer et partager vos idées, confirmez votre compte en cliquant ci-dessous :"
+        action: "Confirmer mon compte"
+        subject: "Confirmez votre inscription à la consultation"

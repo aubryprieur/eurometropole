@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <%= tag :meta, "http-equiv": "Content-Type", content: "text/html; charset=utf-8" %>
+    <%= tag :meta, name: "viewport", content: "width=device-width" %>
+    <%= stylesheet_pack_tag "decidim_email" %>
+    <style type="text/css">
+      /* Eurométropole branding overrides */
+      .decidim-bar {
+        background-color: #0099CC !important;
+      }
+      .cityhall-bar {
+        background-color: #f0f9fc !important;
+      }
+      .cityhall-bar a {
+        color: #0077a0 !important;
+      }
+      .email-button__cta a,
+      .email-button a {
+        background-color: #0099CC !important;
+        color: #ffffff !important;
+      }
+      a {
+        color: #0099CC;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- <style> -->
+    <table class="body">
+      <% if content_for?(:see_on_website) %>
+        <table class="container">
+          <th class="small-12 first columns headnote float-right">
+            <%= yield(:see_on_website) %>
+          </th>
+        </table>
+      <% end %>
+      <tr>
+        <td class="float-center" align="center" valign="top">
+          <center>
+            <table class="main container">
+              <tr>
+                <td class="decidim-bar" style="background-color: #0099CC;">
+                  <table class="row collapse">
+                    <tr>
+                      <th class="small-3 large-3 first columns decidim-bar" style="background-color: #0099CC;">
+                        <table>
+                          <tr>
+                            <th></th>
+                          </tr>
+                        </table>
+                      </th>
+                      <th class="small-6 large-6 columns decidim-bar" style="background-color: #0099CC;">
+                        <table>
+                          <tr>
+                            <th>
+                              <center>
+                                <%= render partial: "layouts/decidim/mailer_logo", locals: { organization: @organization } %>
+                                <div style="color: #ffffff; font-size: 18px; font-weight: 600; text-align: center; padding-top: 6px; letter-spacing: 0.5px;">
+                                  Eurom&eacute;tropole
+                                </div>
+                                <div style="color: #b3e5f5; font-size: 11px; text-align: center; letter-spacing: 1px;">
+                                  Lille &middot; Kortrijk &middot; Tournai
+                                </div>
+                              </center>
+                            </th>
+                          </tr>
+                        </table>
+                      </th>
+                      <th class="small-3 large-3 last columns decidim-bar" style="background-color: #0099CC;">
+                      </th>
+                      <th class="expander"></th>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table class="spacer">
+                    <tbody>
+                      <tr>
+                        <td height="24px" style="font-size:24px;line-height:24px;"> </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table class="row content">
+                    <tr>
+                      <th class="small-12 first columns">
+                        <%= yield %>
+                      </th>
+                      <th class="expander"></th>
+                    </tr>
+                  </table>
+
+                  <table class="row">
+                    <tr>
+                      <th class="small-12 first columns">
+                      </th>
+                      <th class="expander"></th>
+                    </tr>
+                  </table>
+
+                  <table class="row">
+                    <tr>
+                      <th class="expander"></th>
+                      <th class="small-12 first columns" style="background-color: #f0f9fc; border-top: 1px solid #d6eef5; padding: 14px 16px;">
+                        <div style="text-align: center;">
+                          <div style="font-size: 12px; font-weight: 500;">
+                            <% if @custom_url_for_mail_root.present? %>
+                              <%= link_to organization_name(@organization).html_safe, @custom_url_for_mail_root, style: "color: #0077a0; text-decoration: none;" %>
+                            <% else %>
+                              <%= link_to organization_name(@organization).html_safe, decidim.root_url(host: @organization.host), style: "color: #0077a0; text-decoration: none;" %>
+                            <% end %>
+                          </div>
+                          <div style="color: #6badc4; font-size: 11px; padding-top: 2px;">
+                            Consultation &Icirc;lots de la Lys / Eilandjes van de Leie
+                          </div>
+                        </div>
+                      </th>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <% if content_for?(:note) or content_for?(:unsubscribe) %>
+              <table class="container">
+                <tr>
+                  <td>
+                    <table class="row">
+                      <th class="expander"></th>
+                      <th class="small-12 first last columns footnote">
+                        <center>
+                          <%= yield(:note) if content_for?(:note) %>
+                          <%= yield(:unsubscribe) if content_for?(:unsubscribe) %>
+                        </center>
+                      </th>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            <% end %>
+          </center>
+        </td>
+      </tr>
+      <tr>
+        <td class="float-center" align="center" valign="top">
+          <center>
+            <table class="container">
+              <tr>
+                <td height="10px" style="font-size:10px;line-height:10px;"> </td>
+              </tr>
+              <tr>
+                <th class="small-12 first columns footnote">
+                  <%= t("decidim.newsletter_mailer.newsletter.no_reply_notice") %>
+                </th>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

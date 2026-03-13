@@ -1,0 +1,16 @@
+<% if @resource.unconfirmed_email.blank? %>
+  <p class="email-greeting"><%= t(".greeting", recipient: @email) %></p>
+<% end %>
+
+<p class="email-instructions"><%= t(".instruction") %></p>
+
+<p class="email-button email-button__cta">
+  <%= link_to t(".action"),
+    confirmation_url(@resource, confirmation_token: @token, host: @resource.organization.host),
+    style: "display: inline-block; background-color: #0099CC; color: #ffffff; padding: 12px 32px; border-radius: 6px; font-size: 15px; font-weight: 500; text-decoration: none; letter-spacing: 0.3px;" %>
+</p>
+
+<p style="font-size: 12px; color: #999999; line-height: 1.5; margin-top: 24px; border-top: 1px solid #eeeeee; padding-top: 16px;">
+  Si vous n'avez pas cr&eacute;&eacute; de compte, vous pouvez ignorer cet email.<br />
+  Als u geen account heeft aangemaakt, kunt u deze e-mail negeren.
+</p>

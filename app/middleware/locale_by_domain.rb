@@ -10,20 +10,28 @@ class LocaleByDomain
 
   def call(env)
     request = Rack::Request.new(env)
+    original_host = request.host
 
-    if request.host == NL_HOST
+    if original_host == NL_HOST
       env['HTTP_HOST'] = PRIMARY_HOST
       env['SERVER_NAME'] = PRIMARY_HOST
       env['HTTP_ORIGIN'] = env['HTTP_ORIGIN'].sub(NL_HOST, PRIMARY_HOST) if env['HTTP_ORIGIN']
       query = "locale=nl"
       query += "&#{request.query_string}" unless request.query_string.empty?
       env['QUERY_STRING'] = query
-    elsif request.host == PRIMARY_HOST
+    elsif original_host == PRIMARY_HOST
       query = "locale=fr"
       query += "&#{request.query_string}" unless request.query_string.empty?
       env['QUERY_STRING'] = query
     end
 
-    @app.call(env)
+    status, headers, response = @app.call(env)
+
+    # Rewrite redirect URLs back to the original NL domain
+    if original_host == NL_HOST && headers['Location']
+      headers['Location'] = headers['Location'].gsub(PRIMARY_HOST, NL_HOST)
+    end
+
+    [status, headers, response]
   end
 end

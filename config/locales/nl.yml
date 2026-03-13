@@ -181,6 +181,209 @@ nl:
       surveys_count: Enquêtes
     taxonomies:
       prompt: Selecteer een optie
+    download_your_data:
+      export:
+        ready: Klaar
+      help:
+        core:
+          description: Dit zijn de bestanden met de persoonlijke gegevens, bijdragen en activiteiten van de gebruiker %{user_name}
+          title: Download uw gegevensbestanden van %{organization}
+        follows:
+          created_at: De datum en tijd waarop het volgen is aangemaakt
+          followable: De bron of ruimte die wordt gevolgd
+          id: De unieke identificatie van dit volgen
+          updated_at: De datum en tijd waarop het volgen voor het laatst is bijgewerkt
+        identities:
+          created_at: De datum en tijd waarop de identiteit is aangemaakt
+          id: De unieke identificatie van deze identiteit
+          provider: De aanbieder van deze identiteit
+          uid: De unieke identificatie van deze identiteit
+          updated_at: De datum en tijd waarop de identiteit voor het laatst is bijgewerkt
+          user: De gebruiker waartoe deze identiteit behoort
+        messaging_conversations:
+          created_at: De datum waarop dit gesprek is aangemaakt
+          id: De unieke identificatie van dit gesprek
+          messages: De berichten van dit gesprek
+          updated_at: De datum waarop dit gesprek voor het laatst is bijgewerkt
+        notifications:
+          created_at: De datum en tijd waarop de melding is aangemaakt
+          event_class: De klasse van het evenement dat de melding heeft veroorzaakt
+          event_name: De naam van het evenement dat de melding heeft veroorzaakt
+          extra: Extra informatie over deze melding
+          id: De unieke identificatie van deze melding
+          resource_type: Het type bron waarmee de melding verband houdt
+          updated_at: De datum en tijd waarop de melding voor het laatst is bijgewerkt
+        participatory_space_private_users:
+          created_at: De datum en tijd waarop deze privégebruiker is aangemaakt
+          id: De unieke identificatie van deze privégebruiker
+          privatable_to: Tot welke ruimte deze privégebruiker behoort
+          published: Of deze privégebruiker gepubliceerd is of niet
+          role: De rol die deze privégebruiker heeft
+          updated_at: De datum en tijd waarop deze privégebruiker voor het laatst is bijgewerkt
+        reports:
+          created_at: De datum en tijd waarop dit rapport is aangemaakt
+          details: De details van dit rapport
+          id: De unieke identificatie van dit rapport
+          locale: De taal van dit rapport
+          moderation: De moderatie van dit rapport
+          reason: De reden van dit rapport
+          updated_at: De datum en tijd waarop dit rapport voor het laatst is bijgewerkt
+        users:
+          about: De biografie van deze gebruiker
+          accepted_tos_version: De datum waarop de gebruiksvoorwaarden van dit platform door de gebruiker zijn geaccepteerd
+          admin: Of deze gebruiker een beheerder is
+          confirmation_sent_at: De datum en tijd waarop de bevestiging is verzonden
+          confirmed_at: De datum en tijd waarop deze gebruiker is bevestigd
+          created_at: De datum en tijd waarop deze gebruiker is aangemaakt
+          current_sign_in_at: De datum en tijd van de huidige aanmelding
+          current_sign_in_ip: Het IP-adres van de huidige aanmelding
+          delete_reason: De opgegeven reden voor het verwijderen van deze gebruiker
+          deleted_at: De datum en tijd waarop deze gebruiker is verwijderd
+          email: Het e-mailadres van deze gebruiker
+          followers_count: Het aantal deelnemers dat deze gebruiker volgt
+          following_count: Het aantal deelnemers dat deze gebruiker volgt
+          id: De unieke identificatie van deze gebruiker
+          invitation_accepted_at: De datum en tijd waarop de uitnodiging is geaccepteerd
+          invitation_created_at: De datum en tijd waarop deze gebruiker is uitgenodigd
+          invitation_sent_at: De datum en tijd waarop de uitnodiging is verzonden
+          invitations_count: Het aantal uitnodigingen dat naar deze gebruiker is verzonden
+          invited_by: De gebruiker die deze gebruiker heeft uitgenodigd
+          last_sign_in_at: De datum en tijd van de laatste aanmelding
+          last_sign_in_ip: Het IP-adres van de laatste aanmelding
+          locale: De taal die deze gebruiker heeft geselecteerd
+          managed: Of deze gebruiker wordt beheerd door een andere gebruiker
+          name: De naam van deze gebruiker
+          newsletter_notifications_at: De datum en tijd waarop deze gebruiker voor het laatst een nieuwsbrief heeft ontvangen
+          nickname: De gebruikersnaam van deze gebruiker
+          notification_settings: De meldingsinstellingen die deze gebruiker heeft gekozen
+          notifications_sending_frequency: De frequentie van de meldingen die deze gebruiker ontvangt
+          officialized_as: De naam van de officialisering (raadslid, burgemeester, enz.)
+          officialized_at: De datum en tijd waarop deze gebruiker is geofficialiseerd
+          organization: De organisatie waartoe deze gebruiker behoort
+          password_updated_at: De datum waarop het wachtwoord voor het laatst is gewijzigd
+          personal_url: De persoonlijke URL van deze gebruiker
+          remember_created_at: De datum en tijd waarop de gebruiker is geselecteerd om te worden onthouden
+          reset_password_sent_at: De datum en tijd waarop de wachtwoordreset is verzonden
+          roles: De rol die deze gebruiker heeft, indien van toepassing
+          sign_in_count: Het aantal keren dat deze gebruiker zich heeft aangemeld
+          type: Het type van deze gebruiker
+          unconfirmed_email: Het e-mailadres dat deze gebruiker nog niet heeft bevestigd
+          updated_at: De datum en tijd waarop deze gebruiker voor het laatst is bijgewerkt
+      show:
+        action: Actie
+        download: Bestand downloaden
+        download_data: Gegevens downloaden
+        download_data_description_1: Hier vindt u alle beschikbare downloads voor uw account. Deze .zip-bestanden zijn twee weken beschikbaar voordat ze worden verwijderd.
+        download_data_description_2: U kunt een .zip-bestand aanvragen met uw bijdragen en persoonlijke gegevens.
+        download_your_data: Persoonlijke gegevens
+        expiration: Vervaldatum
+        expired: Reeds verlopen
+        explanation:
+          body_1: Deze bestanden zijn gegevenssets die zijn geëxporteerd uit uw activiteiten op dit platform, zoals voorstellen of reacties. Ze bevatten ruwe, gestructureerde gegevens die kunnen worden gebruikt voor analyse, onderzoek of integratie met andere hulpmiddelen.
+          body_2: Deze bestanden zijn in CSV-indeling (door komma's gescheiden waarden), een veelgebruikte bestandsindeling die kan worden geopend en verwerkt door verschillende softwaretoepassingen, waaronder spreadsheetprogramma's, teksteditors en gegevensanalysetools.
+        request_data: Aanvraag
+        type: Downloadtype
+    open_data:
+      help:
+        core:
+          components: Componenten
+          description: Dit ZIP-bestand bevat bestanden voor het bestuderen en onderzoeken van dit participatieplatform.
+          generated_on_date: Gegenereerd op %{date}
+          main: Kern
+          resources:
+            one: "%{count} bron"
+            other: "%{count} bronnen"
+          spaces: Ruimten
+          title: Open Data-bestanden voor %{organization}
+        moderated_users:
+          about: Het "Over mij"-veld van de gebruiker
+          block_reasons: De reden waarom de beheerder de gebruiker heeft geblokkeerd
+          blocked_at: Datum en tijd waarop de gebruiker is geblokkeerd
+          blocking_user: De naam van de gebruiker die de blokkering heeft uitgevoerd
+          details: De details van de meldingen
+          reasons: Een lijst van redenen waarom het profiel is gemeld
+          user_id: De unieke identificatie van de gemelde gebruiker
+        moderations:
+          hidden_at: Datum en tijd waarop de inhoud is verborgen
+          id: De unieke identificatie van de moderatie
+          report_count: Het aantal keren dat het is gemeld
+          reportable_id: De unieke identificatie van het gemelde item
+          reportable_type: Type van het gemelde item
+          reported_content: De inhoud die is gemeld
+          reported_url: De URL van de gemelde bron
+          reports: Een lijst van redenen waarom de bron is gemeld
+        taxonomies:
+          children_count: Het aantal subitems van deze taxonomie
+          created_at: De datum waarop deze taxonomie is aangemaakt
+          filter_items_count: Het aantal itemfilters dat deze taxonomie gebruikt
+          filters_count: Het aantal filters dat deze taxonomie gebruikt
+          id: De unieke identificatie van deze taxonomie
+          is_root: Waar als deze taxonomie geen bovenliggend item heeft
+          name: De naam van deze taxonomie
+          parent_id: De unieke identificatie van het bovenliggende item van deze taxonomie (indien van toepassing)
+          part_of: Gebruikt om te detecteren of deze taxonomie deel uitmaakt van een andere taxonomie
+          taxonomizations_count: Het aantal bronnen dat deze taxonomie gebruikt
+          updated_at: De datum waarop deze taxonomie voor het laatst is bijgewerkt
+          weight: De volgorde waarin deze taxonomie wordt weergegeven
+        users:
+          about: De "Over mij"-tekst van de gebruiker
+          avatar_url: De avatar van de gebruiker
+          badge: Het badge van de gebruiker
+          deleted: Of de gebruiker verwijderd is of niet
+          direct_messages_enabled: Of de gebruiker directe berichten toestaat
+          groups: De identificatie en naam van de gebruikersgroep
+          id: De unieke identificatie van de gebruiker
+          name: De weergavenaam van de gebruiker
+          nickname: De gebruikersnaam van de gebruiker
+          profile_url: De profiel-URL
+      index:
+        description: Welkom op de Open Data-pagina van %{organization_name}. Hier vindt u gegevensbestanden die regelmatig worden gegenereerd uit verschillende overleg- en bestuursprocessen binnen %{organization_name}. Deze bestanden worden beschikbaar gesteld om transparantie, toegankelijkheid en samenwerking te bevorderen. Hieronder vindt u gedetailleerde informatie over wat deze bestanden zijn, hoe u ze kunt openen en ermee kunt werken, en een beschrijving van de inhoud en structuur van elk bestand.
+        detailed:
+          body_1: "Hieronder vindt u een beschrijving van elke gegevensset, inclusief het schema (structuur) en het type informatie dat het bevat:"
+          components: Componenten
+          spaces: Participatieve ruimten
+          title: Gedetailleerde uitleg van elk bestand
+        download:
+          components: Componenten
+          core: Kern
+          spaces: Participatieve ruimten
+          title: Bronnen downloaden
+        download_open_data: Alle Open Data-bestanden downloaden
+        download_resource: "%{resource_name} downloaden in CSV-indeling"
+        explanation:
+          body_1: Deze bestanden zijn gegevenssets die zijn geëxporteerd uit de participatieve processen van %{organization_name}, zoals voorstellen, reacties en bijeenkomsten. Ze bevatten ruwe, gestructureerde gegevens die kunnen worden gebruikt voor analyse, onderzoek of integratie met andere hulpmiddelen. De gegevens worden elke 24 uur automatisch bijgewerkt, zodat u toegang heeft tot de meest recente informatie.
+          body_2: Deze bestanden zijn in CSV-indeling (door komma's gescheiden waarden), een veelgebruikte bestandsindeling die kan worden geopend en verwerkt door verschillende softwaretoepassingen, waaronder spreadsheetprogramma's, teksteditors en gegevensanalysetools.
+          title: Wat zijn deze bestanden?
+        how_to:
+          step_1:
+            body_html: Klik op de onderstaande links om de CSV-bestanden naar uw computer te downloaden.
+            title: 1. De bestanden downloaden
+          step_2:
+            body_html: |-
+              <ul>
+              <li><b>Spreadsheetprogramma's</b>: U kunt CSV-bestanden openen met programma's zoals Microsoft Excel, Google Sheets of LibreOffice Calc. Open het programma, selecteer "Openen" in het menu Bestand en kies het gedownloade CSV-bestand.</li>
+              <li><b>Teksteditors</b>: CSV-bestanden kunnen ook worden geopend in elke teksteditor, zoals Kladblok of Sublime Text. Dit toont de ruwe gegevens, waarbij elke regel een record vertegenwoordigt en de verschillende waarden door een komma gescheiden zijn.</li>
+              <li><b>Gegevensanalysetools</b>: Als u vertrouwd bent met gegevensanalysetools zoals Python (met pandas), R, of SQL-databases, kunt u deze CSV-bestanden rechtstreeks importeren voor verwerking en analyse.</li>
+              </ul>
+            title: 2. De bestanden openen
+          step_3:
+            body_html: |-
+              <ul>
+              <li><b>Filteren en sorteren</b>: In spreadsheetprogramma's kunt u de gegevens filteren en sorteren om u te concentreren op specifieke subsets van informatie.</li>
+              <li><b>Analyse</b>: Gebruik de gegevens om verschillende analyses uit te voeren, zoals het tellen van het aantal voorstellen, het analyseren van trends in reacties of het evalueren van de deelname aan bijeenkomsten.</li>
+              <li><b>Visualisatie</b>: U kunt grafieken, diagrammen en andere visualisaties maken om de gegevens te helpen interpreteren.</li>
+              </ul>
+            title: 3. Werken met de gegevens
+          title: Hoe deze bestanden te openen en ermee te werken
+        license:
+          body_1_html: Deze %{organization_name}-database is beschikbaar gesteld onder de %{link_database}. Alle rechten op individuele inhoud van de database zijn gelicentieerd onder de %{link_contents}.
+          license_contents_link: http://opendatacommons.org/licenses/dbcl/1.0/
+          license_contents_name: Database Contents License
+          license_database_link: http://opendatacommons.org/licenses/odbl/1.0/
+          license_database_name: Open Database License
+          title: Licentie
+        title: Open Data
+      not_available_yet: De Open Data-bestanden zijn nog niet beschikbaar. Probeer het over een paar minuten opnieuw.
   layouts:
     decidim:
       announcements:

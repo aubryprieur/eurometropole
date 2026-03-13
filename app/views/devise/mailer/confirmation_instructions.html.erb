@@ -1,3 +1,5 @@
+<% mail_host = @resource.locale == "nl" ? "www.leie-eiland.eu" : @resource.organization.host %>
+
 <% if @resource.unconfirmed_email.blank? %>
   <p class="email-greeting"><%= t(".greeting", recipient: @email) %></p>
 <% end %>
@@ -6,7 +8,7 @@
 
 <p class="email-button email-button__cta">
   <%= link_to t(".action"),
-    confirmation_url(@resource, confirmation_token: @token, host: @resource.organization.host),
+    confirmation_url(@resource, confirmation_token: @token, host: mail_host),
     style: "display: inline-block; background-color: #0099CC; color: #ffffff; padding: 12px 32px; border-radius: 6px; font-size: 15px; font-weight: 500; text-decoration: none; letter-spacing: 0.3px;" %>
 </p>
 

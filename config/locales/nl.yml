@@ -179,6 +179,16 @@ nl:
       login_modal:
         please_log_in: Gelieve in te loggen
         sign_up: Een account aanmaken
+      newsletter_modal:
+        notice: |-
+          <p>Weet u zeker dat u geen nieuwsbrief wilt ontvangen?<br>
+          Wij raden u aan het vakje aan te vinken om de nieuwsbrief te ontvangen.<br>
+          Het is voor ons zeer belangrijk dat u af en toe e-mails van ons kunt ontvangen
+          om u op de hoogte te houden van belangrijke aankondigingen. U kunt uw keuze altijd wijzigen in uw meldingsinstellingen.</p>
+          <p>Als u het vakje niet aanvinkt, kunt u relevante informatie missen
+          over nieuwe participatieve mogelijkheden op het platform.<br>
+          Als u toch geen nieuwsbrieven wilt ontvangen, begrijpen wij uw beslissing volkomen.</p>
+          <p>Bedankt voor het lezen!</p>
     statistics:
       surveys_count: Enquêtes
     taxonomies:

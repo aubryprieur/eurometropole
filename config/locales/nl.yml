@@ -401,6 +401,17 @@ nl:
           title: Licentie
         title: Open Data
       not_available_yet: De Open Data-bestanden zijn nog niet beschikbaar. Probeer het over een paar minuten opnieuw.
+    notifications_settings:
+      show:
+        allow_public_contact: Sta iedereen toe mij een privébericht te sturen, ook als ik hen niet volg.
+        assigned_to_proposal: Ik wil een e-mail ontvangen wanneer iemand mij een voorstel toewijst om te evalueren
+        evaluators: Evaluatoren
+        notifications_sending_frequencies:
+          daily: Eén keer per dag
+          none: Nooit
+          real_time: In real time
+          weekly: Eén keer per week
+        notifications_sending_frequency: Hoe vaak wilt u e-mailmeldingen ontvangen?
     mailer:
       download_your_data_export:
         click_button_html: Klik op de volgende link om uw gegevens te downloaden.<br/>Het bestand is beschikbaar om te downloaden tot %{date}.

@@ -12,6 +12,7 @@ nl:
     attributes:
       decidim/user:
         email: E-mailadres
+        locale: Taal
     models:
       decidim/surveys/survey:
         one: Enquête
@@ -24,6 +25,9 @@ nl:
       menu:
         participatory_processes_submenu:
           info: Over deze consultatie
+    account:
+      show:
+        available_locales_helper: Kies de taal die u wilt gebruiken om te navigeren en meldingen te ontvangen op het platform.
     devise:
       registrations:
         new:
@@ -74,6 +78,7 @@ nl:
       upload:
         labels:
           add_attachment: Bijlage toevoegen
+          add_image: Afbeelding toevoegen
           save: Opslaan
         select_file: Selecteer een bestand
       upload_help:

@@ -152,6 +152,8 @@ nl:
         preview:
           publish: Publiceren
           title: Publiceer uw voorstel
+        index:
+          see_all_withdrawn: Bekijk alle ingediende voorstellen
         proposals:
           empty: Er zijn nog geen voorstellen.
           empty_filters: Er zijn geen voorstellen die aan deze criteria voldoen.

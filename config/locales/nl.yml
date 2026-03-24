@@ -396,6 +396,10 @@ nl:
           title: Licentie
         title: Open Data
       not_available_yet: De Open Data-bestanden zijn nog niet beschikbaar. Probeer het over een paar minuten opnieuw.
+    mailer:
+      download_your_data_export:
+        click_button_html: Klik op de volgende link om uw gegevens te downloaden.<br/>Het bestand is beschikbaar om te downloaden tot %{date}.
+        download: Downloaden
   layouts:
     decidim:
       announcements:

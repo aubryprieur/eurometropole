@@ -346,15 +346,46 @@ nl:
           weight: De volgorde waarin deze taxonomie wordt weergegeven
         users:
           about: De "Over mij"-tekst van de gebruiker
+          accepted_tos_version: De datum waarop de gebruiksvoorwaarden door de gebruiker zijn geaccepteerd
+          admin: Of deze gebruiker een beheerder is
           avatar_url: De avatar van de gebruiker
           badge: Het badge van de gebruiker
+          confirmation_sent_at: De datum en tijd waarop de bevestiging is verzonden
+          confirmed_at: De datum en tijd waarop deze gebruiker is bevestigd
+          created_at: De datum en tijd waarop deze gebruiker is aangemaakt
+          current_sign_in_at: De datum en tijd van de huidige aanmelding
+          current_sign_in_ip: Het IP-adres van de huidige aanmelding
           deleted: Of de gebruiker verwijderd is of niet
           direct_messages_enabled: Of de gebruiker directe berichten toestaat
+          email: Het e-mailadres van deze gebruiker
+          followers_count: Het aantal deelnemers dat deze gebruiker volgt
+          following_count: Het aantal deelnemers dat deze gebruiker volgt
           groups: De identificatie en naam van de gebruikersgroep
           id: De unieke identificatie van de gebruiker
+          invitation_accepted_at: De datum en tijd waarop de uitnodiging is geaccepteerd
+          invitation_created_at: De datum en tijd waarop deze gebruiker is uitgenodigd
+          invitation_sent_at: De datum en tijd waarop de uitnodiging is verzonden
+          invitations_count: Het aantal uitnodigingen dat naar deze gebruiker is verzonden
+          invited_by: De gebruiker die deze gebruiker heeft uitgenodigd
+          last_sign_in_at: De datum en tijd van de laatste aanmelding
+          last_sign_in_ip: Het IP-adres van de laatste aanmelding
+          locale: De taal die deze gebruiker heeft geselecteerd
+          managed: Of deze gebruiker wordt beheerd door een andere gebruiker
           name: De weergavenaam van de gebruiker
+          newsletter_notifications_at: De datum en tijd waarop deze gebruiker zich heeft aangemeld voor de nieuwsbrief
           nickname: De gebruikersnaam van de gebruiker
+          notifications_sending_frequency: De frequentie van de meldingen die deze gebruiker ontvangt
+          officialized_as: De naam van de officialisering (raadslid, burgemeester, enz.)
+          officialized_at: De datum en tijd waarop deze gebruiker is geofficialiseerd
+          password_updated_at: De datum waarop het wachtwoord voor het laatst is gewijzigd
+          personal_url: De persoonlijke URL van deze gebruiker
           profile_url: De profiel-URL
+          remember_created_at: De datum en tijd waarop de gebruiker is geselecteerd om te worden onthouden
+          reset_password_sent_at: De datum en tijd waarop de wachtwoordreset is verzonden
+          roles: De rol die deze gebruiker heeft, indien van toepassing
+          sign_in_count: Het aantal keren dat deze gebruiker zich heeft aangemeld
+          unconfirmed_email: Het e-mailadres dat deze gebruiker nog niet heeft bevestigd
+          updated_at: De datum en tijd waarop deze gebruiker voor het laatst is bijgewerkt
       index:
         description: Welkom op de Open Data-pagina van %{organization_name}. Hier vindt u gegevensbestanden die regelmatig worden gegenereerd uit verschillende overleg- en bestuursprocessen binnen %{organization_name}. Deze bestanden worden beschikbaar gesteld om transparantie, toegankelijkheid en samenwerking te bevorderen. Hieronder vindt u gedetailleerde informatie over wat deze bestanden zijn, hoe u ze kunt openen en ermee kunt werken, en een beschrijving van de inhoud en structuur van elk bestand.
         detailed:

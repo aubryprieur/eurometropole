@@ -36,6 +36,50 @@ fr:
               other: "%{count} consultations à venir"
         show:
           title: A propos de cette consultation
+    open_data:
+      help:
+        users:
+          about: La biographie de cet utilisateur
+          accepted_tos_version: La date à laquelle les conditions d'utilisation de cette plateforme ont été acceptées par l'utilisateur
+          admin: Si cet utilisateur est un administrateur
+          avatar_url: L'avatar de l'utilisateur
+          badge: Le badge de l'utilisateur
+          confirmation_sent_at: La date et l'heure d'envoi de la confirmation
+          confirmed_at: La date et l'heure de confirmation de cet utilisateur
+          created_at: La date et l'heure de création de cet utilisateur
+          current_sign_in_at: La date et l'heure de la connexion actuelle
+          current_sign_in_ip: L'adresse IP de la connexion actuelle
+          deleted: Si l'utilisateur est supprimé ou non
+          direct_messages_enabled: Si l'utilisateur autorise les messages directs
+          email: L'adresse e-mail de cet utilisateur
+          followers_count: Le nombre de participants qui suivent cet utilisateur
+          following_count: Le nombre de participants que cet utilisateur suit
+          groups: L'identifiant et le nom du groupe d'utilisateurs
+          id: L'identifiant unique de l'utilisateur
+          invitation_accepted_at: La date et l'heure d'acceptation de l'invitation
+          invitation_created_at: La date et l'heure de l'invitation de cet utilisateur
+          invitation_sent_at: La date et l'heure d'envoi de l'invitation
+          invitations_count: Le nombre d'invitations envoyées à cet utilisateur
+          invited_by: L'utilisateur qui a invité cet utilisateur
+          last_sign_in_at: La date et l'heure de la connexion précédente
+          last_sign_in_ip: L'adresse IP de la connexion précédente
+          locale: La langue que cet utilisateur a sélectionnée
+          managed: Si cet utilisateur est géré par un autre utilisateur
+          name: Le nom de cet utilisateur
+          newsletter_notifications_at: La date et l'heure à laquelle cet utilisateur s'est abonné pour recevoir la newsletter
+          nickname: Le pseudonyme de l'utilisateur
+          notifications_sending_frequency: La fréquence des notifications que cet utilisateur reçoit
+          officialized_as: Le nom de la fonction officielle (conseiller municipal, maire, etc.)
+          officialized_at: La date et l'heure à laquelle cet utilisateur a été officialisé
+          password_updated_at: La date à laquelle le mot de passe a été modifié pour la dernière fois
+          personal_url: L'URL personnelle de cet utilisateur
+          profile_url: L'URL du profil
+          remember_created_at: La date et l'heure à laquelle l'utilisateur a été sélectionné pour être mémorisé
+          reset_password_sent_at: La date et l'heure d'envoi de la réinitialisation du mot de passe
+          roles: Le rôle de cet utilisateur s'il en a un
+          sign_in_count: Le nombre de fois que cet utilisateur s'est connecté
+          unconfirmed_email: L'adresse e-mail que cet utilisateur n'a pas encore confirmée
+          updated_at: La date et l'heure de la dernière mise à jour de cet utilisateur
   devise:
     mailer:
       confirmation_instructions:

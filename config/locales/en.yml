@@ -29,3 +29,48 @@
 
 en:
   hello: "Hello world"
+  decidim:
+    open_data:
+      help:
+        users:
+          about: The "About me" text of the user
+          accepted_tos_version: The date when the terms of service were accepted by the user
+          admin: Whether this user is an administrator
+          avatar_url: The avatar of the user
+          badge: The badge of the user
+          confirmation_sent_at: The date and time the confirmation was sent
+          confirmed_at: The date and time this user was confirmed
+          created_at: The date and time this user was created
+          current_sign_in_at: The date and time of the current sign-in
+          current_sign_in_ip: The IP address of the current sign-in
+          deleted: Whether the user is deleted or not
+          direct_messages_enabled: Whether the user allows direct messages
+          email: The email address of this user
+          followers_count: The number of participants following this user
+          following_count: The number of participants this user follows
+          groups: The identifier and name of the user group
+          id: The unique identifier of the user
+          invitation_accepted_at: The date and time the invitation was accepted
+          invitation_created_at: The date and time this user was invited
+          invitation_sent_at: The date and time the invitation was sent
+          invitations_count: The number of invitations sent to this user
+          invited_by: The user who invited this user
+          last_sign_in_at: The date and time of the previous sign-in
+          last_sign_in_ip: The IP address of the previous sign-in
+          locale: The language this user has selected
+          managed: Whether this user is managed by another user
+          name: The display name of the user
+          newsletter_notifications_at: The date and time this user subscribed to the newsletter
+          nickname: The username of the user
+          notifications_sending_frequency: The frequency of notifications this user receives
+          officialized_as: The official function title (councillor, mayor, etc.)
+          officialized_at: The date and time this user was officialized
+          password_updated_at: The date the password was last changed
+          personal_url: The personal URL of this user
+          profile_url: The profile URL
+          remember_created_at: The date and time the user was selected to be remembered
+          reset_password_sent_at: The date and time the password reset was sent
+          roles: The role of this user, if applicable
+          sign_in_count: The number of times this user has signed in
+          unconfirmed_email: The email address this user has not yet confirmed
+          updated_at: The date and time this user was last updated

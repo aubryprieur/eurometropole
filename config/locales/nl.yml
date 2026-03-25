@@ -26,6 +26,8 @@ nl:
         participatory_processes_submenu:
           info: Over deze consultatie
     account:
+      delete:
+        alert: Deze actie kan niet ongedaan worden gemaakt. Als u uw account verwijdert, kunt u niet meer inloggen met uw inloggegevens. Het verwijderen van uw account leidt tot anonimisering van uw bijdragen. U kunt altijd een nieuw account aanmaken, maar uw eerdere bijdragen worden daar niet aan gekoppeld.
       show:
         available_locales_helper: Kies de taal die u wilt gebruiken om te navigeren en meldingen te ontvangen op het platform.
     devise:

@@ -80,6 +80,13 @@ fr:
           sign_in_count: Le nombre de fois que cet utilisateur s'est connecté
           unconfirmed_email: L'adresse e-mail que cet utilisateur n'a pas encore confirmée
           updated_at: La date et l'heure de la dernière mise à jour de cet utilisateur
+    download_your_data:
+      show:
+        download_data: Téléchargement des données
+        explanation:
+          body_1: Ces fichiers sont des jeux de données exportés à partir de vos activités sur cette plateforme, comme les propositions ou les commentaires. Ils contiennent des données brutes et structurées pouvant être utilisées pour l'analyse, la recherche ou l'intégration avec d'autres outils.
+          body_2: Ces fichiers sont au format CSV (valeurs séparées par des virgules), un format de fichier largement utilisé qui peut être ouvert et traité par divers logiciels, notamment les tableurs, les éditeurs de texte et les outils d'analyse de données.
+          title: Que sont ces fichiers ?
   devise:
     mailer:
       confirmation_instructions:

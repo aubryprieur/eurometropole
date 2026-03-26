@@ -526,6 +526,9 @@ nl:
         terms_of_service: Gebruiksvoorwaarden
       user_menu:
         configuration: Instellingen
+  versions:
+    dropdown:
+      toggle: "Weergave wisselen"
   devise:
     mailer:
       confirmation_instructions:

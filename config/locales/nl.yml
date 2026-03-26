@@ -45,6 +45,8 @@ nl:
       application_helper:
         filter_taxonomy_values:
           all: Alle
+    resource:
+      controls_label: "Acties voor deze bijdrage"
     errors:
       internal_server_error:
         copied: Tekst gekopieerd!

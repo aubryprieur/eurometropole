@@ -5,6 +5,8 @@ fr:
       application_helper:
         filter_taxonomy_values:
           all: Tout
+    resource:
+      controls_label: "Actions sur la ressource"
     menu:
       processes: Consultations
     participatory_processes:

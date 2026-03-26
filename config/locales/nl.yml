@@ -65,7 +65,7 @@ nl:
         user: Gebruikers-ID
     activity:
       time_ago: "%{time} geleden"
-    attachments:
+    application:
       photos:
         photos: "Afbeeldingen"
     components:

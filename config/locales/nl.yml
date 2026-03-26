@@ -20,6 +20,9 @@ nl:
       decidim/debates/debate:
         one: Debat
         other: Debatten
+      decidim/comments/comment:
+        one: Reactie
+        other: Reacties
   decidim:
     admin:
       menu:
@@ -62,12 +65,30 @@ nl:
         user: Gebruikers-ID
     activity:
       time_ago: "%{time} geleden"
+    attachments:
+      photos:
+        photos: "Afbeeldingen"
     components:
+      add_comment_form:
+        form:
+          submit_root_comment: "Reactie publiceren"
+        remaining_characters: "%{count} tekens over"
+        title: "Voeg uw reactie toe"
+      comment:
+        controls_label: "Reactieknoppen"
+        sort_by: "Sorteren op: "
+      comment_order_selector:
+        order:
+          older: "Ouder"
+          recent: "Recent"
+        title: "Sorteren op:"
       component_order_selector:
         order:
           debate: Debat
       surveys:
         name: Enquêtes
+    comments:
+      comments_title: "Reactie"
     last_activities:
       all: Alle activiteitstypen
       index:
@@ -202,6 +223,9 @@ nl:
       surveys_count: Enquêtes
     taxonomies:
       prompt: Selecteer een optie
+    versions:
+      resource_version:
+        see_other_versions: "bekijk andere versies"
     download_your_data:
       export:
         ready: Klaar

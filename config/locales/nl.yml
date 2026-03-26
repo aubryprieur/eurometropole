@@ -192,6 +192,8 @@ nl:
           step_1: Voorstel maken
           step_2: Publiceer uw voorstel
           title: Stappen voor het maken van een voorstel
+      last_activity:
+        new_proposal: "Nieuw voorstel:"
     search:
       name: Zoeken
     searches:

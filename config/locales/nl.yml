@@ -197,6 +197,9 @@ nl:
           step_1: Voorstel maken
           step_2: Publiceer uw voorstel
           title: Stappen voor het maken van een voorstel
+        show:
+          edit_proposal: "Bewerken"
+          withdraw_proposal: "Intrekken"
       last_activity:
         new_proposal: "Nieuw voorstel:"
     search:

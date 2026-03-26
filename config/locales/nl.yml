@@ -87,6 +87,9 @@ nl:
           debate: Debat
       surveys:
         name: Enquêtes
+      proposals:
+        actions:
+          withdraw: "Intrekken"
     comments:
       comments_title: "Reactie"
     last_activities:
@@ -172,6 +175,8 @@ nl:
         show:
           title: Over deze consultatie
     proposals:
+      actions:
+        edit_proposal: "Voorstel bewerken"
       proposals:
         edit:
           add_attachments: Bijlagen toevoegen

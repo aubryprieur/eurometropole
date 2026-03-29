@@ -14,6 +14,8 @@ s3:
   bucket: <%= Decidim::Env.new("AWS_BUCKET").to_s %>
   <%= "region: #{Decidim::Env.new("AWS_REGION").to_s}" if Decidim::Env.new("AWS_REGION").present? %>
   <%= "endpoint: #{ Decidim::Env.new("AWS_ENDPOINT").to_s}" if Decidim::Env.new("AWS_ENDPOINT").present? %>
+  upload:
+    cache_control: "public, max-age=2592000"
 
 azure:
   service: AzureStorage

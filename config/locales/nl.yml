@@ -485,6 +485,12 @@ nl:
       download_your_data_export:
         click_button_html: Klik op de volgende link om uw gegevens te downloaden.<br/>Het bestand is beschikbaar om te downloaden tot %{date}.
         download: Downloaden
+    likes_list:
+      liked_by:
+        one: "Geliket door %{visible}"
+        other: "Geliket door %{visible} en %{others}"
+      others: "%{count} meer"
+      title: "Geliket door"
   layouts:
     decidim:
       announcements:

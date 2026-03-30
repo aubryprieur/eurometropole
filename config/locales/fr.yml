@@ -89,6 +89,12 @@ fr:
           body_1: Ces fichiers sont des jeux de données exportés à partir de vos activités sur cette plateforme, comme les propositions ou les commentaires. Ils contiennent des données brutes et structurées pouvant être utilisées pour l'analyse, la recherche ou l'intégration avec d'autres outils.
           body_2: Ces fichiers sont au format CSV (valeurs séparées par des virgules), un format de fichier largement utilisé qui peut être ouvert et traité par divers logiciels, notamment les tableurs, les éditeurs de texte et les outils d'analyse de données.
           title: Que sont ces fichiers ?
+    likes_list:
+      liked_by:
+        one: "Aimé par %{visible}"
+        other: "Aimé par %{visible} et %{others}"
+      others: "%{count} de plus"
+      title: "Aimé par"
   devise:
     mailer:
       confirmation_instructions:

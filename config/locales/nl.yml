@@ -47,8 +47,8 @@ nl:
       registrations:
         new:
           sign_up: Een account aanmaken
-          subtitle: Maak een account aan om deel te nemen aan het platform.
-          terms: Gebruiksvoorwaarden
+          subtitle: Maak een account aan om deel te nemen aan de raadpleging.
+          terms: gebruiksvoorwaarden
       sessions:
         new:
           are_you_new?: Nog geen account?
@@ -107,6 +107,11 @@ nl:
       index:
         last_activity: Laatste activiteit
       name: Laatste activiteiten
+      no_activities_warning: Er zijn geen gegevens beschikbaar voor dit type activiteit.
+    links:
+      warning:
+        body_1: U staat op het punt om een externe link te bezoeken, wees voorzichtig met de inhoud van de externe site.
+        body_2: Controleer de link, zorg ervoor dat u deze herkent als een veilige site voor u verdergaat.
     forms:
       file_help:
         file:
@@ -531,6 +536,7 @@ nl:
             description: Deze cookies stellen de website in staat om de keuzes te onthouden die u in het verleden op deze website hebt gemaakt, om een meer gepersonaliseerde ervaring te bieden.
           save_settings: Instellingen opslaan
           title: Cookie-instellingen
+          description: We gebruiken cookies om de basisfunctionaliteiten van de website te garanderen en uw online-ervaring te verbeteren. U kunt op elk gewenst moment het gebruik van de cookies configureren en accepteren of uw toestemmingsopties wijzigen.
         details:
           columns:
             service: Service
@@ -565,7 +571,17 @@ nl:
         subject: "Bevestig uw inschrijving voor de raadpleging"
     passwords:
       edit:
-        password_help: "%{minimum_characters} tekens minimum, mag niet te gewoon zijn (bijvoorbeeld 123456) en moet verschillen van uw gebruikersnaam en e-mailadres."
+        password_help: "Het wachtwoord moet minimaal %{minimum_characters} tekens bevatten, mag niet te eenvoudig zijn (bijvoorbeeld 123456) en moet verschillen van uw gebruikersnaam en e-mailadres."
+      new:
+        forgot_your_password: Uw wachtwoord vergeten?
+    registrations:
+      new:
+        already_have_an_account?: Hebt u al een account?
+        username_help: Publieke naam die bij uw berichten verschijnt. Met het oog op het waarborgen van de anonimiteit hoeft dit niet uw echte naam te zijn.
+        tos_agreement: Door u aan te melden gaat u akkoord met de %{link}.
     shared:
       links:
         sign_up: Een account aanmaken
+    unlocks:
+      new:
+        resend_unlock_instructions: Verzend ontgrendelinstructies opnieuw

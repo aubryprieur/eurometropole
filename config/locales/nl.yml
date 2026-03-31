@@ -23,11 +23,21 @@ nl:
       decidim/comments/comment:
         one: Reactie
         other: Reacties
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        other: "ongeveer %{count} uur"
   decidim:
     admin:
       menu:
         participatory_processes_submenu:
           info: Over deze consultatie
+      filters:
+        meetings:
+          is_upcoming_true:
+            values:
+              'false': Afgelopen
+              'true': Geplande
     account:
       delete:
         alert: Deze actie kan niet ongedaan worden gemaakt. Als u uw account verwijdert, kunt u niet meer inloggen met uw inloggegevens. Het verwijderen van uw account leidt tot anonimisering van uw bijdragen. U kunt altijd een nieuw account aanmaken, maar uw eerdere bijdragen worden daar niet aan gekoppeld.
@@ -121,17 +131,25 @@ nl:
     meetings:
       meetings:
         meetings:
-          no_meetings_warning: "Geen bijeenkomsten komen overeen met uw zoekcriteria of er zijn nog geen bijeenkomsten aangemaakt."
+          no_meetings_warning: "Er komen geen bijeenkomsten overeen met uw zoekcriteria of er zijn nog geen bijeenkomsten aangemaakt."
         filters:
           search: Zoeken
+          date_values:
+            past: Afgelopen
+            upcoming: Geplande
     metadata:
       progress:
-        remaining: "%{time_distance} resterend"
+        remaining: "Nog %{time_distance}"
+    searches:
+      filters:
+        state:
+          future: Geplande
+          past: Afgelopen
     pages:
       home:
         footer_sub_hero:
-          footer_sub_hero_body_html: Laten we samen bouwen aan een meer open, transparante en collaboratieve samenleving.<br /> Doe mee, neem deel en beslis mee.
-          footer_sub_hero_headline: Welkom op het participatieplatform van %{organization}.
+          footer_sub_hero_body_html: Laten we samen bouwen aan een meer open, transparante en collaboratieve samenleving.<br /> Neem deel en beslis mee.
+          footer_sub_hero_headline: Welkom op het participatieplatform van de %{organization}.
     participatory_processes:
       admin:
         participatory_process_groups:
@@ -142,7 +160,7 @@ nl:
             title: Over deze consultatie
       content_blocks:
         participatory_processes:
-          active: Actieve consultaties
+          active: Lopende consultaties
           name: Consultaties
       last_activity:
         new_participatory_process: "Nieuwe consultatie:"

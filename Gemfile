@@ -20,6 +20,7 @@ gem "puma", ">= 6.3.1"
 gem "sidekiq"
 gem "aws-sdk-s3", require: false
 gem 'rack-reverse-proxy'
+gem "rack-attack"
 
 
 group :development, :test do

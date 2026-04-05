@@ -1,4 +1,15 @@
-# the following adds a rule for all bots to not index any page that contains a profile or search
 User-agent: *
 Disallow: /profiles/
 Disallow: /search
+Disallow: /users/
+Disallow: /account/
+
+User-agent: facebookexternalhit
+Crawl-delay: 5
+Disallow: /processes/*/proposals?*
+Disallow: /processes/*/last_activities
+
+User-agent: FacebookBot
+Crawl-delay: 5
+Disallow: /processes/*/proposals?*
+Disallow: /processes/*/last_activities

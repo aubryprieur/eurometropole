@@ -4,18 +4,18 @@ Rack::Attack.cache.store = ActiveSupport::Cache::RedisCacheStore.new(
 )
 
 class Rack::Attack
-  # Limiter les requêtes sur les pages de propositions : 5 par minute par IP
-  throttle("proposals/ip", limit: 5, period: 60) do |req|
-    req.ip if req.path.include?("/proposals")
+  # Rate-limit les pages de propositions avec filtres uniquement (crawlers)
+  throttle("proposals-filtered/ip", limit: 15, period: 60) do |req|
+    req.ip if req.path.include?("/proposals") && req.query_string.include?("filter")
   end
 
-  # Limiter le crawl global du sous-réseau Facebook : 20 req/min par IP
-  throttle("facebook-crawler/ip", limit: 20, period: 60) do |req|
-    req.ip if req.ip&.start_with?("57.141.")
+  # Rate-limit global par IP : 60 req/min (protège contre toute rafale)
+  throttle("global/ip", limit: 60, period: 60) do |req|
+    req.ip
   end
 
-  # Réponse 429 personnalisée
-  self.throttled_responder = lambda do |req|
-    [429, { "Content-Type" => "text/plain", "Retry-After" => "60" }, ["Rate limit exceeded. Retry later.\n"]]
+  self.throttled_responder = lambda do |request|
+    [429, { "Content-Type" => "text/plain", "Retry-After" => "60" },
+     ["Rate limit exceeded. Retry later.\n"]]
   end
 end
